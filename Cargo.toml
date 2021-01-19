@@ -18,7 +18,7 @@ exclude = ["/.github", "/.travis.yml", "/appveyor.yml"]
 edition = "2018"
 
 [dependencies]
-jobserver = { version = "0.1.16", optional = true }
+jobserver = { git = "https://github.com/8tab/jobserver-rs", branch = "redox", optional = true }
 
 [features]
 parallel = ["jobserver"]
